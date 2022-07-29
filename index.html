@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment_2</title>
+</head>
+
+<body>
+    <div class="h1">
+        <h1>Class Marksheet</h1>
+    </div>
+
+    <div class="input_points">
+        <div class="class-1">
+            <p>Họ Tên: </p>
+            <input class="ten" type="text" placeholder=" Hãy nhập tên">
+        </div>
+
+        <div class="class-2">
+            <p>Điểm Toán: </p>
+            <input class="toan" type="text" placeholder="Nhập số">
+        </div>
+
+        <div class="class-3">
+            <p>Điểm Lý: </p>
+            <input class="ly" type="text" placeholder="Nhập số">
+        </div>
+
+        <div class="class-4">
+            <p>Điểm Hóa: </p>
+            <input onfocus="this.value=''" class="hoa" type="text" placeholder=" Nhập số">
+        </div>
+    </div>
+    <div class="nhap">
+        <button class="enter"> Nhập</button>
+    </div>
+
+    <table class="table" cellspacing="2" cellpadding="15">
+        <tr>
+            <th>STT</th>
+            <th>Họ Tên</th>
+            <th>Toán</th>
+            <th>Lý</th>
+            <th>Hóa</th>
+            <th>Trung bình</th>
+        </tr>
+    </table>
+
+    <div class="btn-end">
+        <button class="dtb"> Tính Điểm Trung Bình</button>
+        <button class="best_student"> Xác Định Học Sinh Giỏi</button>
+    </div>
+
+    <script src="action.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-collapse:collapse;
+}
+th, td{
+    border:1px solid black;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.input_points{
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.class-1,.class-2,.class-3,.class-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width:30%;
+    height: 20px;
+    font-size:20px;
+    width:15%;
+}
+.nhap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+button{
+    cursor: pointer;
+    font-size:20px;
+}
+.nhap button{
+    font-size:20px;
+    border-radius: 3px;
+    background-color: rgb(212, 52, 23);
+    color:white;
+}
+.btn-end{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xoa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
